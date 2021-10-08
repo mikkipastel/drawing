@@ -14,6 +14,7 @@ class ArcView @JvmOverloads constructor(
     private val paint = Paint().apply {
         isAntiAlias = true
         color = Color.BLACK
+        style = Paint.Style.STROKE
     }
 
     override fun onDraw(canvas: Canvas?) {
